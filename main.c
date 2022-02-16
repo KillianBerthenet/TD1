@@ -11,5 +11,6 @@ int main(void) {
   printf("Le tableau saisi est \n");
     for(i=0;i<5;i++) {
       printf(" %d: ", tab[i]);
+      printf("hello");
     }
 }
