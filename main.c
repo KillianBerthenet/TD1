@@ -7,5 +7,9 @@ int main(void) {
     printf("Element %d: ", i);
     scanf("%d",&tab[i]);
   }
-  return 0;
+  
+  printf("Le tableau saisi est \n");
+    for(i=0;i<5;i++) {
+      printf(" %d: ", tab[i]);
+    }
 }
